@@ -17,7 +17,7 @@ public class GitHubEnterpriseTest {
     }
 
     @Test
-    void comparePlansShouldLeadToPricingPage () {
+    void solutionsShouldLeadToEnterprisePage () {
         open("https://github.com/");
         $("html").hover();
         $(".Header-old").$(byText("Solutions")).hover();
